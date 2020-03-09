@@ -1,0 +1,32 @@
+//
+//  YPO-PrefixHeader.pch
+//  YPO
+//
+//  Created by Ahmed Durrani on 01/11/2017.
+//  Copyright © 2017 Sajid Saeed. All rights reserved.
+//
+
+#ifndef YPO_PrefixHeader_pch
+#define YPO_PrefixHeader_pch
+
+#import "YPORecentChatVc.h"
+#import "YPONotificationVC.h"
+#import "YPOSearchEventListVc.h"
+#import "UIButton+Badge.h"
+#import "Constant.h"
+#import "NSDate+NVTimeAgo.h"
+#import "UIViewController+Helper.h"
+#import "NSUserDefaults+RMSaveCustomObject.h"
+#import "AppDelegate.h"
+#import "Reachability.h"
+#import "MOUser.h"
+#import "Utility.h"
+#import "loginResponse.h"
+#import <GoogleAnalytics/GAI.h>
+#import <GoogleAnalytics/GAIDictionaryBuilder.h>
+#import <GAIFields.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* YPO_PrefixHeader_pch */

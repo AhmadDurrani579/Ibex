@@ -1,0 +1,6 @@
+framework module SVHTTPRequest {
+  umbrella header "SVHTTPRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}

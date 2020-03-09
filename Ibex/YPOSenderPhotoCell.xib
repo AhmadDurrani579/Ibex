@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="YPOSenderPhotoCell" rowHeight="146" id="KGk-i7-Jjw" customClass="YPOSenderPhotoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="145.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x1A-sF-jYH">
+                        <rect key="frame" x="4" y="4" width="312" height="137.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KG6-2y-J8S" customClass="CardView">
+                                <rect key="frame" x="25" y="0.0" width="189" height="138"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oB9-ve-F1Y">
+                                        <rect key="frame" x="5" y="5" width="179" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="oB9-ve-F1Y" firstAttribute="top" secondItem="KG6-2y-J8S" secondAttribute="top" constant="5" id="2LS-xd-Eim"/>
+                                    <constraint firstAttribute="bottom" secondItem="oB9-ve-F1Y" secondAttribute="bottom" constant="5" id="4qe-yl-Izx"/>
+                                    <constraint firstAttribute="trailing" secondItem="oB9-ve-F1Y" secondAttribute="trailing" constant="5" id="7jb-Fd-8Dm"/>
+                                    <constraint firstAttribute="height" constant="138" id="8SN-fW-ouS"/>
+                                    <constraint firstItem="oB9-ve-F1Y" firstAttribute="leading" secondItem="KG6-2y-J8S" secondAttribute="leading" constant="5" id="pJM-ja-CAG"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLU-E2-Wl5">
+                                <rect key="frame" x="25" y="0.0" width="189" height="138"/>
+                                <connections>
+                                    <action selector="btnSenderCell:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zaa-38-hoA"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="TuX-2q-BZj">
+                                <rect key="frame" x="109" y="59" width="20" height="20"/>
+                                <color key="color" red="0.0078431372550000003" green="0.14901960780000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MLU-E2-Wl5" firstAttribute="leading" secondItem="KG6-2y-J8S" secondAttribute="leading" id="4wu-kn-adO"/>
+                            <constraint firstItem="KG6-2y-J8S" firstAttribute="top" secondItem="x1A-sF-jYH" secondAttribute="top" id="56q-vR-PbZ"/>
+                            <constraint firstAttribute="bottom" secondItem="KG6-2y-J8S" secondAttribute="bottom" id="B0R-dd-Voy"/>
+                            <constraint firstItem="KG6-2y-J8S" firstAttribute="leading" secondItem="x1A-sF-jYH" secondAttribute="leading" constant="25" id="Di1-EM-mcD"/>
+                            <constraint firstItem="MLU-E2-Wl5" firstAttribute="trailing" secondItem="KG6-2y-J8S" secondAttribute="trailing" id="Fes-yS-FlM"/>
+                            <constraint firstItem="TuX-2q-BZj" firstAttribute="centerX" secondItem="KG6-2y-J8S" secondAttribute="centerX" id="kIX-ns-vbH"/>
+                            <constraint firstItem="MLU-E2-Wl5" firstAttribute="bottom" secondItem="KG6-2y-J8S" secondAttribute="bottom" id="pGl-6M-Gy7"/>
+                            <constraint firstItem="MLU-E2-Wl5" firstAttribute="top" secondItem="KG6-2y-J8S" secondAttribute="top" id="rrJ-9s-ZGG"/>
+                            <constraint firstItem="TuX-2q-BZj" firstAttribute="centerY" secondItem="KG6-2y-J8S" secondAttribute="centerY" id="tav-dO-Xuq"/>
+                            <constraint firstAttribute="trailing" secondItem="KG6-2y-J8S" secondAttribute="trailing" constant="98" id="tdI-cU-IGP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="x1A-sF-jYH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="3lQ-sv-nyz"/>
+                    <constraint firstAttribute="bottom" secondItem="x1A-sF-jYH" secondAttribute="bottom" constant="4" id="HsZ-G2-l33"/>
+                    <constraint firstAttribute="trailing" secondItem="x1A-sF-jYH" secondAttribute="trailing" constant="4" id="kza-5u-WxC"/>
+                    <constraint firstItem="x1A-sF-jYH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="sWF-xU-iPg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="activityStartIndicator" destination="TuX-2q-BZj" id="YEM-ea-o1O"/>
+                <outlet property="btnPreviewPhoto_Pressed" destination="MLU-E2-Wl5" id="nMh-wa-bhx"/>
+                <outlet property="imageOfSenderSend" destination="oB9-ve-F1Y" id="YhD-ZQ-hmD"/>
+            </connections>
+            <point key="canvasLocation" x="-42" y="32"/>
+        </tableViewCell>
+    </objects>
+</document>

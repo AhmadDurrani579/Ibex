@@ -1,0 +1,6 @@
+framework module TTCustomCallout {
+  umbrella header "TTCustomCallout-umbrella.h"
+
+  export *
+  module * { export * }
+}

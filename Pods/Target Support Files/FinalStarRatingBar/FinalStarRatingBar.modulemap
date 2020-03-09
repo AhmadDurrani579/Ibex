@@ -1,0 +1,6 @@
+framework module FinalStarRatingBar {
+  umbrella header "FinalStarRatingBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

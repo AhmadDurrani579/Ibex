@@ -1,0 +1,255 @@
+PODS:
+  - ActionSheetPicker-3.0 (1.7.2)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BBBadgeBarButtonItem (1.2)
+  - CocoaAsyncSocket (7.6.1)
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
+  - CustomBadge (3.0.0)
+  - CZPicker (0.4.3)
+  - DAAlertController (0.1.4)
+  - DACircularProgress (2.3.1)
+  - FinalStarRatingBar (0.0.2)
+  - Firebase/Core (4.5.0):
+    - FirebaseAnalytics (= 4.0.4)
+    - FirebaseCore (= 4.0.10)
+  - Firebase/Messaging (4.5.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.6)
+  - FirebaseAnalytics (4.0.4):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.10):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseInstanceID (2.0.5)
+  - FirebaseMessaging (2.0.6):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FLAnimatedImage (1.0.12)
+  - GoogleAnalytics (3.17.0)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.3)":
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - IDMPhotoBrowser (1.10.2):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - JSONModel (1.7.0)
+  - KissXML (5.2.0)
+  - LGSideMenuController (1.0.10)
+  - libidn (1.33)
+  - LinkedinIOSHelper (1.0.7)
+  - MBProgressHUD (0.9.2)
+  - MFSideMenu (0.5.5)
+  - MJPopupViewController (0.4)
+  - MLPAutoCompleteTextField (1.5)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - "NSDate+TimeAgo (1.0.6)"
+  - pop (1.0.10)
+  - Protobuf (3.4.0)
+  - RMMapper (1.1.5)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SRMonthPicker (0.2.10)
+  - SVHTTPRequest (0.5)
+  - SVProgressHUD (2.0-beta)
+  - THLabel (1.4.8)
+  - TPKeyboardAvoiding (1.2.11)
+  - TTCustomCallout (0.1.0)
+  - "UIImage+ImageCompress (0.0.1)"
+  - UIImageView-AGCInitials (0.0.2)
+  - UIScrollView-InfiniteScroll (1.0.2)
+  - US2FormValidator (1.1.2)
+  - WYPopoverController (0.2.2)
+  - XMPPFramework (4.0):
+    - XMPPFramework/default (= 4.0)
+  - XMPPFramework/default (4.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - CocoaLumberjack
+    - KissXML (~> 5.2.0)
+    - libidn (~> 1.33.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 1.7.1)
+  - AFNetworking (~> 3.1.0)
+  - BBBadgeBarButtonItem
+  - CustomBadge (~> 3.0.0)
+  - CZPicker
+  - DAAlertController
+  - FinalStarRatingBar (~> 0.0.2)
+  - Firebase/Core
+  - Firebase/Messaging
+  - FLAnimatedImage (~> 1.0)
+  - GoogleAnalytics
+  - GoogleMaps
+  - IDMPhotoBrowser (~> 1.8)
+  - JSONModel
+  - LGSideMenuController (~> 1.0.0)
+  - LinkedinIOSHelper (~> 1.0.7)
+  - MBProgressHUD (~> 0.9.1)
+  - MFSideMenu
+  - MJPopupViewController (~> 0.4)
+  - MLPAutoCompleteTextField (~> 1.5)
+  - "NSDate+TimeAgo (~> 1.0)"
+  - RMMapper
+  - SDWebImage (~> 3.7)
+  - SRMonthPicker
+  - SVHTTPRequest (~> 0.5)
+  - SVProgressHUD (= 2.0-beta)
+  - THLabel (~> 1.4.0)
+  - TPKeyboardAvoiding (~> 1.2.9)
+  - TTCustomCallout
+  - "UIImage+ImageCompress (~> 0.0)"
+  - UIImageView-AGCInitials
+  - UIScrollView-InfiniteScroll
+  - US2FormValidator (~> 1.1.2)
+  - WYPopoverController (~> 0.2.2)
+  - XMPPFramework (from `https://github.com/robbiehanson/XMPPFramework.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActionSheetPicker-3.0
+    - AFNetworking
+    - BBBadgeBarButtonItem
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - CustomBadge
+    - CZPicker
+    - DAAlertController
+    - DACircularProgress
+    - FinalStarRatingBar
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FLAnimatedImage
+    - GoogleAnalytics
+    - GoogleMaps
+    - GoogleToolboxForMac
+    - IDMPhotoBrowser
+    - JSONModel
+    - KissXML
+    - LGSideMenuController
+    - libidn
+    - LinkedinIOSHelper
+    - MBProgressHUD
+    - MFSideMenu
+    - MJPopupViewController
+    - MLPAutoCompleteTextField
+    - nanopb
+    - "NSDate+TimeAgo"
+    - pop
+    - Protobuf
+    - RMMapper
+    - SDWebImage
+    - SRMonthPicker
+    - SVHTTPRequest
+    - SVProgressHUD
+    - THLabel
+    - TPKeyboardAvoiding
+    - TTCustomCallout
+    - "UIImage+ImageCompress"
+    - UIImageView-AGCInitials
+    - UIScrollView-InfiniteScroll
+    - US2FormValidator
+    - WYPopoverController
+
+EXTERNAL SOURCES:
+  XMPPFramework:
+    :branch: master
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+CHECKOUT OPTIONS:
+  XMPPFramework:
+    :commit: e682092b7059028a278bb8905771d79f46562fd0
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: c5bdca19fd8b3d798f0c79892cbab6f11a8523ae
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BBBadgeBarButtonItem: c2fbca0bff18e21b70defc9438a8a5048008e7ca
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  CustomBadge: c60738d213e7ef019b0bf1caa7948333f280ea9b
+  CZPicker: 55aa1751ea26e209814552da1a9a08cba8bbf72a
+  DAAlertController: 4735313ec65d3d69f81fdd34d01308809680350f
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FinalStarRatingBar: 0be5911137c36f786d4abbcc48991ebdf8fe7e8e
+  Firebase: d83d287bdb6b1c78320561482706d1fcfc8ddfc1
+  FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
+  FirebaseCore: da5e8e372cb6046212739a4d81e42d32c22907cc
+  FirebaseInstanceID: f2b688c66b972f30d7fa9f5f9f91455454a03b47
+  FirebaseMessaging: 75d83375b0f7a9911568d7bdd1a1a8261cbcbdef
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  IDMPhotoBrowser: 4bb459b1faffc228e92bccdf7c54ad6d6b7e8c37
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  KissXML: 1c1eeeb6b94e4522cd2f2373e5d0d03c9227738f
+  LGSideMenuController: 8682bdbd0008c1acfbce95eaf96cc3657bca5f95
+  libidn: 90fc1a62b60288dcf543f13f4ebca913f17d829f
+  LinkedinIOSHelper: 3316a1d934b821d0f8d3a4a0fcf5e51bd8d77cd3
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  MJPopupViewController: e9ad553a3145eb8126ba2748e872ae7fb25cc605
+  MLPAutoCompleteTextField: ba4d507bbff2bd4f139d4197814fc8dd39caf77e
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  "NSDate+TimeAgo": 35601c619b2d59290055e4fe76e61d97677a2360
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  RMMapper: 21122d753c736d975f6c61e674afce8db73579af
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SRMonthPicker: d3c639e82f525f1c10d1ad7f4bbdf180d404942b
+  SVHTTPRequest: e358f1e5817d8d28a749c3433e62c6acfed48d51
+  SVProgressHUD: c83337f10ed32d701c423d519059a249973c8662
+  THLabel: a2ca21c06cd7daba5c0c6d3095d48f6c137a3d80
+  TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
+  TTCustomCallout: e1479481411c2d01104819d223c04ee9458e523b
+  "UIImage+ImageCompress": 6b38489f38075d569d9f25d72af7ecf5c84c1057
+  UIImageView-AGCInitials: 4326faf01587dbfa2ffdee7e596ae96c1beca05c
+  UIScrollView-InfiniteScroll: c132d6d5851daff229ab4a1060ccf70a05a051c9
+  US2FormValidator: 66d39ab4fc162763f0806f0347da6a6a96101297
+  WYPopoverController: 00d879c25bddd1fd873dcc21aa98c8308d7f1555
+  XMPPFramework: 36b1a94ab8fb4292b6cad64ddfa8b452e58d6523
+
+PODFILE CHECKSUM: 913653f577faff7d6ffdec505222d8e0a39f2086
+
+COCOAPODS: 1.5.2
